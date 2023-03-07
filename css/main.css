@@ -1,0 +1,43 @@
+@import url("./variables.css");
+@import url("./blocks/container.css");
+@import url("./blocks/logo.css");
+@import url("./blocks/btn.css");
+@import url("./blocks/header.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/socials.css");
+@import url("./blocks/copyright.css");
+@import url("./blocks/card.css");
+@import url("./blocks/cards.css");
+@import url("./blocks/popup.css");
+@import url("./blocks/form.css");
+@import url("./blocks/cat-info.css");
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: currentColor;
+}
+.main {
+    flex: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-main-color);
+}
