@@ -1,3 +1,9 @@
+import { api } from './api.js';
+import { Card } from './card.js';
+import { cats } from './cats.js';
+import { PopupWithImage } from './popup-image.js';
+import { Popup } from './popup.js';
+
 const cardsContainer = document.querySelector(".cards");
 const btnOpenPopup = document.querySelector(".btn");
 const formCatAdd = document.querySelector("#popup-form-add");
@@ -21,6 +27,10 @@ function serializeForm(elements) {
   return formData;
 }
 
+api.deleteCatById()
+.the(data => {
+  console.log(data);
+})
 function handleFormAddCat(e) {
   e.preventDefault();
   const elementsFormCat = [...formCatAdd.elements];

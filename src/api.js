@@ -1,13 +1,13 @@
 const config = {
     baseUrl: "https://cats.petiteweb.dev/api/single/annapazhukova",
     headers: {
-      "content-type": "application/json",
+      "content-type":"application/json",
     },
 };
   
 class Api {
     #getResponse(res) {
-      return res.ok ? res.json() : Promise.reject();
+      return res.ok ? res.json() : Promise.reject('Ошибка на стороне сервера');
     }
   
     #baseUrl;
@@ -52,4 +52,4 @@ class Api {
     }
 }
   
-const api = new Api(config);
+export const api = new Api(config);

@@ -1,4 +1,4 @@
-const cats = [
+export const cats = [
     {
         "id":2,
         "name":"Ласкун",
@@ -6,7 +6,7 @@ const cats = [
         "age":2,
         "favourite":true,
         "description":"Безумно любит обниматься",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     },
     {
         "id":3,
@@ -15,7 +15,7 @@ const cats = [
         "age":3,
         "favourite":true,
         "description":"Ест мышей",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     },
     {
         "id":5,
@@ -24,7 +24,7 @@ const cats = [
         "age":5,
         "favourite":true,
         "description":"Очень ласковый",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     },
     {
         "id":6,
@@ -33,7 +33,7 @@ const cats = [
         "age":6,
         "favourite":true,
         "description":"Красивая и дружелюбная",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     },
     {
         "id":7,
@@ -42,7 +42,7 @@ const cats = [
         "age":7,
         "favourite":true,
         "description":"Неаккуратно кушает",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     },
     {
         "id":8,
@@ -51,7 +51,7 @@ const cats = [
         "age":8,
         "favourite":true,
         "description":"Большой, добрый и толстенький",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     },
     {
         "id":9,
@@ -60,6 +60,6 @@ const cats = [
         "age":9,
         "favourite":true,
         "description":"Шкодничает и не даёт хозяину спокойно",
-        "image":"https://legkovmeste.ru/wp-content/uploads/2019/02/post_5b76fabe77f52.jpg"
+        "image":"https://sputnik.kz/img/07e5/09/06/18055097_73:0:2804:2048_1920x0_80_0_0_49b44415b0d395b5699eddb8d2f5b143.jpg"
     }
 ];
