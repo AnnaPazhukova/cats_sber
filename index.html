@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="page">
@@ -12,6 +13,7 @@
         <div class="container header__container">
             <a href="#" class="logo"><i class="fa-solid fa-paw fa-2x"></i> Милые котики</a>
             <button class="btn" id="add"><i class="fa-solid fa-plus"></i></button>
+            <button class="btn" id="login">Войти</button>
         </div>
     </header>
      <main class="main container">
@@ -51,8 +53,19 @@
                     <span class="form__label">Любимчик</span>  
                     <span class="form__fake-checkbox"><i class="fa-regular fa-circle-check"></i></span>
                 </label>
-                <input type="url" class="form__input" name="img_link" placeholder="Ссылка на фото">
+                <input type="url" class="form__input" name="image" placeholder="Ссылка на фото">
                 <button type="submit" class="form__btn btn">Добавить котика</button>
+            </form>
+        </div>
+    </div>
+    <div class="popup popup-login">
+        <div class="popup__container" >
+            <button class="popup__close btn"><i class="fa-solid fa-xmark"></i></button>
+            <h2>Авторизация</h2>
+            <form class="form" id="popup-form-login">
+                <input type="email" class="form__input" name="email" required placeholder="email">
+                <input type="password" class="form__input" name="password" placeholder="password">
+                <button type="submit" class="form__btn btn">Войти</button>
             </form>
         </div>
     </div>
@@ -67,6 +80,7 @@
             </button>
           </div>
     </template>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" defer></script>
     <script src="./src/index.js" type="module" defer></script>
 </body>
 </html>
